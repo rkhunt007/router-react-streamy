@@ -9,8 +9,8 @@ class Header extends React.Component {
             <div className="ui secondary pointing menu">
                 <Link to="/" className="item">Streamer</Link>
                 <div className="right menu">
-                    <GoogleAuth></GoogleAuth>
                     <Link to="/" className="item">All Streams</Link>
+                    <GoogleAuth></GoogleAuth>
                 </div>
             </div>
         )
