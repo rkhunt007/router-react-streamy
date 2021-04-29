@@ -1,3 +1,16 @@
+# Streamy APP using react
+
+## This is a demo app using react.
+
+### This app demonstrates use of the following
+
+- Googla auth authentication
+- react-router
+- react-redux
+- redux-form
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
