@@ -6,7 +6,6 @@ import StreamDelete from "./streams/StreamDelete";
 import StreamEdit from "./streams/StreamEdit";
 import StreamList from "./streams/StreamList";
 import StreamShow from "./streams/StreamShow";
-import StreamDeleteTest from "./streams/StreamDeleteTest";
 
 function App() {
   return (

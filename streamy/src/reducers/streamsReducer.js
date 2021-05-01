@@ -15,7 +15,9 @@ const authReducer = (state = initialState, action) => {
             return { ...state, ..._.mapKeys(action.payload, 'id')};
 
         case DELETE_STREAM:
-            return { ...state, [action.payload.id]: null };
+            // return { ...state, [action.payload]: null };
+            delete state[action.payload]
+            return state;
 
         case EDIT_STREAM:
             return _.omit(state, action.payload);
