@@ -1,9 +1,6 @@
 {
   "streams": [
     {
-      "id": 1
-    },
-    {
       "title": "Hello",
       "description": "Again",
       "id": 2
@@ -12,6 +9,12 @@
       "title": "Hello",
       "description": "Again",
       "id": 3
+    },
+    {
+      "title": "My Stream",
+      "description": "My Stream Desc",
+      "userId": "110631224274170769175",
+      "id": 4
     }
   ]
 }
